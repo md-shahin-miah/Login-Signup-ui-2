@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sample Registration</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="or">OR</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="nointernet">No Internet</string>
+    <string name="reset">RESET</string>
+    <string name="emailerror">Invalid Email Entered</string>
+    <string name="passworderror">Invalid Password, Password must be 6 characters length</string>
+    <string name="validationerror">Invalid Name Entered</string>
+</resources>
