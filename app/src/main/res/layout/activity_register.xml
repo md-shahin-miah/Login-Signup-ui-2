@@ -61,7 +61,7 @@
                     android:paddingLeft="10dp"
                     android:paddingEnd="20dp"
                     android:paddingRight="20dp"
-                    android:layout_height="42dp"
+                    android:layout_height="48dp"
                     android:layout_weight="0.5"/>
                 <Button
                     android:id="@+id/buttonFacebook"
@@ -75,7 +75,7 @@
                     android:paddingLeft="10dp"
                     android:paddingEnd="15dp"
                     android:paddingRight="15dp"
-                    android:layout_height="42dp"
+                    android:layout_height="48dp"
                     android:layout_weight="0.5"/>
             </LinearLayout>
             <LinearLayout
@@ -113,7 +113,9 @@
                 android:layout_width="55dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_person_white_24dp"
+                />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -121,7 +123,7 @@
                 android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginStart="15dp"
@@ -155,8 +157,8 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginStart="15dp"
                     android:layout_marginRight="18dp"
@@ -189,8 +191,8 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginStart="15dp"
                     android:visibility="visible"
@@ -224,8 +226,8 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginStart="15dp"
                     android:layout_marginRight="18dp"
@@ -260,8 +262,8 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginStart="15dp"
                     android:layout_marginRight="18dp"
@@ -297,7 +299,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/button_signup"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:backgroundTint="@color/colorAccent"
                     android:layout_margin="20dp"
                     android:layout_gravity="center"
